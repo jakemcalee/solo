@@ -2,6 +2,8 @@
 # Jacob McAlee | February 19, 2026
 
 
+
+# prints the board and gives square a value
 def printBoard(board):
     print("\n")
     print(f" {board[0]} | {board[1]} | {board[2]} ")
@@ -11,7 +13,8 @@ def printBoard(board):
     print(f"{board[6]} | {board[7]} | {board[8]}")
     print("\n")
 
-
+# This function is for when a player gets one of the 
+# winning combinations
 def checkWinner(board, player):
     winningCombinations = [
         [0,1,2], [3,4,5], [6,7,8],
@@ -24,7 +27,8 @@ def checkWinner(board, player):
             return True
         return False
     
-
+# Function to display the baord so the player can decide
+# What spot they want to take
 def ticTacToe():
     board = [" " for _ in range(9)]
     currentPlayer = "X"
