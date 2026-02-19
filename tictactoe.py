@@ -8,9 +8,9 @@ def printBoard(board):
     print("\n")
     print(f" {board[0]} | {board[1]} | {board[2]} ")
     print("---|---|---")
-    print(f"{board[3]} | {board[4]} | {board[5]}")
+    print(f" {board[3]} | {board[4]} | {board[5]} ")
     print("---|---|---")
-    print(f"{board[6]} | {board[7]} | {board[8]}")
+    print(f" {board[6]} | {board[7]} | {board[8]} ")
     print("\n")
 
 # This function is for when a player gets one of the 
@@ -36,6 +36,7 @@ def ticTacToe():
     print("Tic-Tac-Toe")
     print("=" * 10)
     print("This is what the board looks like")
+    print("\n")
     print(" 1 | 2 | 3 ")
     print("---|---|---")
     print(" 4 | 5 | 6 ")
